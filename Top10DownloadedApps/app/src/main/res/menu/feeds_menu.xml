@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnuFree"
+        android:title="Free Apps" />
+    <item
+        android:id="@+id/mnuPaid"
+        android:title="Paid Apps" />
+    <item
+        android:id="@+id/mnuSongs"
+        android:title="Songs" />
+    <item
+        android:id="@+id/topAlbums"
+        android:title="Top Albums" />
+    <group
+        android:id="@+id/mnugrpLimit"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/mnu10"
+            android:checked="true"
+            android:title="Top 10" />
+        <item
+            android:id="@+id/mnu25"
+            android:checked="false"
+            android:title="Top 25" />
+    </group>
+    <item
+        android:id="@+id/refreshButton"
+        android:title="Refresh List" />
+</menu>
